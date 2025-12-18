@@ -1,0 +1,31 @@
+.large-photo {
+    width: 100vw;
+    height: 600px;
+    background-image: url(/large-photo-component.jpg);
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    justify-content: space-around;
+}
+
+.large-photo .large-photo-container {
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.large-photo .large-photo-container .text-container {
+    width: 26%;
+}
+
+.large-photo .large-photo-container .text-container h2 {
+    color: white;
+    text-align: end;
+}
+
+.large-photo .large-photo-container .text-container h4 {
+    color: white;
+}

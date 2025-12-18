@@ -1,0 +1,11 @@
+.description-principal-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 70px;
+}

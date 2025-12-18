@@ -1,0 +1,22 @@
+.collection-carroussel-principal-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.collection-carroussel-container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.collection-carroussel-container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.collection-carroussel-container a img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="none">
+<!-- Logo tête de chien minimal, vectoriel, prêt pour impression -->
+<g stroke="#000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+<!-- Oreilles -->
+<path d="M120 170 C60 120, 40 80, 70 70 C120 55, 160 120, 170 160" />
+<path d="M392 170 C452 120, 472 80, 442 70 C392 55, 352 120, 342 160" />
+
+
+<!-- Tête -->
+<path d="M170 160 C120 210, 120 330, 256 360 C392 330, 392 210, 342 160" />
+
+
+<!-- Yeux -->
+<circle cx="210" cy="250" r="6" fill="#000" stroke="none" />
+<circle cx="302" cy="250" r="6" fill="#000" stroke="none" />
+
+
+<!-- Museau -->
+<path d="M226 300 C226 330, 286 330, 286 300" />
+<path d="M236 300 C246 290, 266 290, 276 300" />
+
+
+<!-- Nez -->
+<path d="M246 280 C256 270, 256 270, 266 280 C266 290, 246 290, 246 280 Z" fill="#000" stroke="none" />
+</g>
+</svg>
