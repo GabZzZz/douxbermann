@@ -1,23 +1,17 @@
 import './App.css';
-import CollectionCarousel from './components/collection-carousel/CollectionCarousel';
-import Description from './components/description/Description';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
-import LargePhoto from './components/large-photo/LargePhoto';
-import PhotosCarousel from './components/photos-carousel/PhotosCarousel';
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home/Home';
+import Collections from './pages/collections/Collections';
 
 function App() {
 
   return (
-    <>
-      <Header />
-      <LargePhoto />
-      <CollectionCarousel />
-      <PhotosCarousel />
-      <Description />
-      <Footer />
-    </>
-    
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/collections/leach" element={<Collections />} />
+      </Routes>
+    </HashRouter>
   )
 }
 

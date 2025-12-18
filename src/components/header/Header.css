@@ -30,6 +30,11 @@
     color: var(--global-secondary-color);
 } 
 
+.header .header-container .header-navigations .menu:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
 .header .header-container .header-navigations .sublink {
     min-width: 90px;
 }

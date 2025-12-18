@@ -1,0 +1,25 @@
+.collections-principal-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.collections-container {
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.collections-container .collection-title {
+    margin-bottom: 20px;
+}
+
+.collections-container .collection-element {
+    height: 300px;
+    width: 300px;
+}
+
+.collections-container .collection-element img {
+    height: 280px;
+    width: 300px;
+}

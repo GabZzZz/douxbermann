@@ -3,9 +3,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "../../components/ui/carousel";
 import * as React from "react"
 import Autoplay from "embla-carousel-autoplay"
 
