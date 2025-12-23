@@ -12,14 +12,6 @@ function PhotosCarousel() {
         Autoplay({ delay: 3000, stopOnInteraction: false })
     )
 
-    const photos = [
-        'photos-1.webp',
-        'photos-2.webp',
-        'photos-3.webp',
-        'photos-4.webp',
-        'photos-5.webp'
-    ];
-
     return (
         <div className="photos-container">
             <Carousel
@@ -32,9 +24,9 @@ function PhotosCarousel() {
             >
                 <CarouselContent>
                     {
-                        photos.map((photo, index) => (
+                        window.douxbermann.home.carousel.map((link: string, index: number) => (
                                 <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/1">
-                                    <img src={photo}></img>
+                                    <img src={link}></img>
                                 </CarouselItem>
                             )
                         )

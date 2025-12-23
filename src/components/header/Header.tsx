@@ -12,8 +12,10 @@ import {
   NavigationMenuTrigger,
 } from "../ui/navigation-menu";
 import { Button } from '../ui/button';
+import { useEffect } from 'react';
 
 function Header() {
+    useEffect(() => {}, [window.douxbermann]);
 
     return (
         <div className='header'>
@@ -31,12 +33,11 @@ function Header() {
                                     <span className="menu">Collections</span>
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <NavigationMenuLink>
-                                        <a className="sublink" href="#/collections/leach">Laisse</a>
-                                    </NavigationMenuLink>
-                                    <NavigationMenuLink>
-                                        <a className="sublink" href="#/collections/collar">Collier</a>
-                                    </NavigationMenuLink>
+                                    {window.douxbermann && window.douxbermann.collections.map((collection: any) => (
+                                        <NavigationMenuLink>
+                                            <a className="sublink" href={'#' + collection.link}>{collection.label}</a>
+                                        </NavigationMenuLink>
+                                    ))}
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
                         </NavigationMenuList>

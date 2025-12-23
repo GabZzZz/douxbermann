@@ -14,7 +14,7 @@ function Collections() {
                 {
                     name: 'Cloutée',
                     price: 15,
-                    link: '#/leach/cloutee',
+                    link: '#/collections/leach/cloutee',
                     photos: [
                         'collection-cage.webp',
                         'collection-creme.webp',
@@ -26,7 +26,7 @@ function Collections() {
                 {
                     name: 'Cranté',
                     price: 1125,
-                    link: '#/leach/crante',
+                    link: '#/collections/leach/crante',
                     photos: [
                         'collection-cage.webp',
                         'collection-creme.webp',
@@ -36,9 +36,45 @@ function Collections() {
                     ],
                 },
                 {
-                    name: 'Crantéeeeeeeeee',
+                    name: 'Cranté 4',
                     price: 1125,
-                    link: '#/leach/cranteeeeeeeeee',
+                    link: '#/collections/leach/cranteeeeeeeeee',
+                    photos: [
+                        'collection-cage.webp',
+                        'collection-creme.webp',
+                        'collection-croquette.webp',
+                        'collection-harnais.webp',
+                        'collection-laisse.webp'
+                    ],
+                },
+                {
+                    name: 'Cranté 3',
+                    price: 1125,
+                    link: '#/collections/leach/cranteeeeeeeeee',
+                    photos: [
+                        'collection-cage.webp',
+                        'collection-creme.webp',
+                        'collection-croquette.webp',
+                        'collection-harnais.webp',
+                        'collection-laisse.webp'
+                    ],
+                },
+                {
+                    name: 'Cranté 2',
+                    price: 1125,
+                    link: '#/collections/leach/cranteeeeeee',
+                    photos: [
+                        'collection-cage.webp',
+                        'collection-creme.webp',
+                        'collection-croquette.webp',
+                        'collection-harnais.webp',
+                        'collection-laisse.webp'
+                    ],
+                },
+                {
+                    name: 'Cranté 1',
+                    price: 1125,
+                    link: '#/collections/leach/cranteeeeeeeeee',
                     photos: [
                         'collection-cage.webp',
                         'collection-creme.webp',

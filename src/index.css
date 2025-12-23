@@ -4,31 +4,31 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --global-primary-color: #321a14;
-  --global-secondary-color: #d6b9b1;
+  --global-primary-color: #151611;
+  --global-secondary-color: #f6efdf;
   --global-max-width: 1440px;
-  --global-background-color: #d6b9b1;
-  --header-background-color: #321a14;
+  --global-background-color: #f6efdf;
+  --header-background-color: #151611;
   --header-height: 50px;
 
   
   --radius: 0.625rem;
-  --background: #321a14;
-  --foreground: #321a14;
+  --background: #151611;
+  --foreground: #151611;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #d6b9b1;
-  --primary-foreground: #321a14;
+  --primary: #f6efdf;
+  --primary-foreground: #151611;
   --secondary: oklch(0.97 0 0);
-  --secondary-foreground: #321a14;
+  --secondary-foreground: #151611;
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: transparent;
-  --accent-foreground: #d6b9b1;
+  --accent-foreground: #f6efdf;
   --destructive: oklch(58.305% 0.23863 28.392);
-  --border: #321a14;
+  --border: #151611;
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
   --chart-1: oklch(0.646 0.222 41.116);

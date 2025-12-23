@@ -9,3 +9,7 @@
     max-width: 1440px;
     padding: 70px;
 }
+
+.description-container p {
+    line-height: 2;
+}

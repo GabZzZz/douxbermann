@@ -21,6 +21,10 @@
     gap: 10px;
 }
 
+.footer-container .footer-links a:hover {
+    text-decoration: underline;
+}
+
 .footer-container .footer-networks {
     display: flex;
     flex-direction: column;
@@ -33,7 +37,12 @@
     gap: 10px;
 }
 
+.footer-container .footer-networks div a:hover {
+    text-decoration: underline;
+}
+
 .footer-container .footer-networks .logo {
     width: 150px;
     height: 150px;
+    fill: var(--global-secondary-color);
 }

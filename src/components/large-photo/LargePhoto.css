@@ -1,9 +1,9 @@
 .large-photo {
     width: 100vw;
-    height: 600px;
-    background-image: url(/large-photo-component.jpg);
+    height: 60vh;
+    background-image: url(/home/principal/home-photo.jpeg);
     background-size: cover;
-    background-position: center top;
+    background-position: center 30%;
     display: flex;
     justify-content: space-around;
 }
@@ -22,10 +22,12 @@
 }
 
 .large-photo .large-photo-container .text-container h2 {
-    color: white;
+    color: var(--global-secondary-color);
     text-align: end;
+    border-color: var(--global-secondary-color);
 }
 
 .large-photo .large-photo-container .text-container h4 {
-    color: white;
+    color: var(--global-secondary-color);
+    text-align: end;
 }
