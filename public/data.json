@@ -1,0 +1,48 @@
+{
+    "home": {
+        "title": "Douxbermann",
+        "subtitle": "Le style mordant, le coeur fondant.",
+        "carousel": [
+            "/home/carousel/carousel-1.jpeg",
+            "/home/carousel/carousel-2.jpeg",
+            "/home/carousel/carousel-3.jpeg",
+            "/home/carousel/carousel-4.jpeg",
+            "/home/carousel/carousel-5.jpeg",
+            "/home/carousel/carousel-6.jpeg",
+            "/home/carousel/carousel-7.jpeg"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "collections": [
+        {
+            "name": "poignee",
+            "label": "Poignée",
+            "picture": "/collections/poignee/poignee-1.PNG",
+            "link": "/collections/longe"
+        },
+        {
+            "name": "longe",
+            "label": "Longe",
+            "picture": "/collections/longe/longe-1.PNG",
+            "link": "/collections/longe"
+        },
+        {
+            "name": "collier",
+            "label": "Collier",
+            "picture": "/collections/collier/collier-1.PNG",
+            "link": "/collections/collier"
+        },
+        {
+            "name": "chats",
+            "label": "Chats",
+            "picture": "/collections/chats/chats-1.PNG",
+            "link": "/collections/chats"
+        },
+        {
+            "name": "beau-gosse",
+            "label": "Beau Gosse",
+            "picture": "/collections/beau-gosse/beau-gosse-1.PNG",
+            "link": "/collections/beau-gosse"
+        }
+    ]
+}
