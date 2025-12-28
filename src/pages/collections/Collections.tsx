@@ -1,112 +1,40 @@
-import './Collections.css'
-import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
-import { useLocation } from 'react-router-dom';
+import './Collections.css';
+import { useParams } from 'react-router-dom';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../../components/ui/carousel';
+import { useState } from 'react';
+import Layer from '../../components/layer/Layer';
 
 function Collections() {
-    const location = useLocation();
-    console.log(location.pathname);
-    let collection;
-    switch (true) {
-        case location.pathname.startsWith('/collections/leach') :
-            collection =  { name: 'Laisse', items: [
-                {
-                    name: 'Cloutée',
-                    price: 15,
-                    link: '#/collections/leach/cloutee',
-                    photos: [
-                        'collection-cage.webp',
-                        'collection-creme.webp',
-                        'collection-croquette.webp',
-                        'collection-harnais.webp',
-                        'collection-laisse.webp'
-                    ],
-                },
-                {
-                    name: 'Cranté',
-                    price: 1125,
-                    link: '#/collections/leach/crante',
-                    photos: [
-                        'collection-cage.webp',
-                        'collection-creme.webp',
-                        'collection-croquette.webp',
-                        'collection-harnais.webp',
-                        'collection-laisse.webp'
-                    ],
-                },
-                {
-                    name: 'Cranté 4',
-                    price: 1125,
-                    link: '#/collections/leach/cranteeeeeeeeee',
-                    photos: [
-                        'collection-cage.webp',
-                        'collection-creme.webp',
-                        'collection-croquette.webp',
-                        'collection-harnais.webp',
-                        'collection-laisse.webp'
-                    ],
-                },
-                {
-                    name: 'Cranté 3',
-                    price: 1125,
-                    link: '#/collections/leach/cranteeeeeeeeee',
-                    photos: [
-                        'collection-cage.webp',
-                        'collection-creme.webp',
-                        'collection-croquette.webp',
-                        'collection-harnais.webp',
-                        'collection-laisse.webp'
-                    ],
-                },
-                {
-                    name: 'Cranté 2',
-                    price: 1125,
-                    link: '#/collections/leach/cranteeeeeee',
-                    photos: [
-                        'collection-cage.webp',
-                        'collection-creme.webp',
-                        'collection-croquette.webp',
-                        'collection-harnais.webp',
-                        'collection-laisse.webp'
-                    ],
-                },
-                {
-                    name: 'Cranté 1',
-                    price: 1125,
-                    link: '#/collections/leach/cranteeeeeeeeee',
-                    photos: [
-                        'collection-cage.webp',
-                        'collection-creme.webp',
-                        'collection-croquette.webp',
-                        'collection-harnais.webp',
-                        'collection-laisse.webp'
-                    ],
-                }
-            ] };
-        break;
+    const { collectionName } = useParams();
+    const [collection, setCollection] = useState<any>();
+
+    const onCollectionsLoaded = () => {
+        setCollection(
+                window.douxbermann.collections
+                    .filter((collection: any) => collection.name === collectionName)
+                    .shift()
+            );
     };
 
-    return (<>
-      <Header />
-      <div id="scroll-container">
-        <div className="collections-principal-container">
-            <div className='collections-container'>
+    return (
+      <Layer onDataLoaded={onCollectionsLoaded}>
+        <div className="collections-principal-container mb-20">
+            <div className='collections-container mb-4'>
                 <div className="collection-title">
                     <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-balance">
-                        { collection!.name}
+                        { collection?.label}
                     </h1>
                 </div>
                 <div className="grid grid-cols-4 gap-6">
-                    {collection!.items.map(item => 
-                        <div className="collection-element pr-10">
-                            <Carousel>
-                                <CarouselContent>
+                    {collection?.products?.map((product: any, productIndex: number) => 
+                        <div className="collection-element pr-10" key={product.name + '-' + productIndex}>
+                            <Carousel className="collection-carousel">
+                                <CarouselContent className="collection-carousel-content">
                                     {
-                                        item.photos.map((photo, index) => (
-                                                <CarouselItem key={item.name + '-' + index} className="md:basis-1/1 lg:basis-1/1">
-                                                    <a className="collection-carroussel-item" href={item.link}>
-                                                        <img src={photo}></img>
+                                        product.pictures.map((picture: string, index: number) => (
+                                                <CarouselItem key={product.name + '-' + picture + '-' + index} className="md:basis-1/1 lg:basis-1/1">
+                                                    <a className="collection-carroussel-item" href={product.link}>
+                                                        <img src={'/assets/collections/' + collection.name + '/' + picture} />
                                                     </a>
                                                 </CarouselItem>
                                             )
@@ -116,15 +44,14 @@ function Collections() {
                                 <CarouselPrevious />
                                 <CarouselNext />
                             </Carousel>
-                            <p>{item.name} - {item.price}€</p>
+                            <p>{product.label} - {product.price}€</p>
                         </div>
                     )}
                 </div>
             </div>
         </div>
-        <Footer />
-      </div>
-    </>);
+      </Layer>
+      );
 }
 
 export default Collections;

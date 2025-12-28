@@ -17,7 +17,7 @@ function CollectionCarroussel() {
                             window.douxbermann.collections.map((collection: any, index: number) => (
                                     <CarouselItem key={collection.name + '-' + index} className="md:basis-1/2 lg:basis-1/4">
                                         <a className="collection-carroussel-item p-1" href={collection.link}>
-                                            <img src={collection.picture}></img>
+                                            <img src={'/assets/' + collection.picture}></img>
                                             <p>{collection.label}</p>
                                         </a>
                                     </CarouselItem>

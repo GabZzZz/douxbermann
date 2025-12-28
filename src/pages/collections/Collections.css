@@ -17,9 +17,28 @@
 .collections-container .collection-element {
     height: 300px;
     width: 300px;
+    border-radius: 10%;
 }
 
 .collections-container .collection-element img {
     height: 280px;
     width: 300px;
+    border-radius: 10%;
+}
+
+.collections-container .collection-element .collection-carousel {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+}
+
+.collections-container .collection-element .collection-carousel .overflow-hidden {
+    border-radius: 10%;
+}
+
+.collections-container .collection-element .collection-carousel .collection-carroussel-item {
+    outline: none;
+}
+
+.collections-container .collection-element .collection-carousel .collection-carroussel-item img {
+    outline: none;
 }

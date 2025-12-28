@@ -26,7 +26,7 @@ function PhotosCarousel() {
                     {
                         window.douxbermann.home.carousel.map((link: string, index: number) => (
                                 <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/1">
-                                    <img src={link}></img>
+                                    <img src={'/assets/' + link}></img>
                                 </CarouselItem>
                             )
                         )

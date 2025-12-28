@@ -5,16 +5,17 @@ import Footer from '../footer/Footer';
 import { Spinner } from '../ui/spinner';
 
 interface LayerProps {
-    children: ReactNode[];
+    children: ReactNode[] | ReactNode;
+    onDataLoaded?: Function,
 } 
 
-function Layer({ children }: LayerProps) {
+function Layer({ onDataLoaded, children }: LayerProps) {
 
   const [douxbermann, setData] = useState(null);  
   
   useEffect(() => {
     if (!window.douxbermann) {
-        fetch('data.json')
+        fetch('/data.json')
         .then(response => {
             if (!response.ok) {
             throw new Error('Erreur HTTP');
@@ -22,10 +23,19 @@ function Layer({ children }: LayerProps) {
             return response.json();
         })
         .then(jsonDouxbermann => {
-            setData(jsonDouxbermann);
             window.douxbermann = jsonDouxbermann;
+            setData(jsonDouxbermann);
+            if (onDataLoaded) {
+              onDataLoaded(jsonDouxbermann);
+            }
         })
-        .catch(err => console.error(err));
+        .catch(err => {
+          console.error(err);
+        });
+    } else {
+      if (onDataLoaded) {
+        onDataLoaded(window.douxbermann);
+      }
     }
   }, [window.douxbermann]);
 

@@ -1,7 +1,7 @@
 .large-photo {
     width: 100vw;
     height: 60vh;
-    background-image: url(/home/principal/home-photo.jpeg);
+    background-image: url(/assets/home/principal/home-photo.jpeg);
     background-size: cover;
     background-position: center 30%;
     display: flex;

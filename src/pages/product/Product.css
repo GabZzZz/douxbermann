@@ -1,0 +1,26 @@
+.product-principal-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.product-container {
+    max-width: 1440px;
+}
+
+.product-container .product-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-container .product-description .product-carousel {
+    height: 70vh;
+    width: 25vw;
+}
+
+.product-container .product-description .product-informations {
+    display: flex;
+    flex-direction: column;
+}
