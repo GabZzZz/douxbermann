@@ -4,6 +4,7 @@ import Home from './pages/home/Home';
 import Collections from './pages/collections/Collections';
 import { useEffect, useState } from 'react';
 import Product from './pages/product/Product';
+import WhoAreWe from './pages/who-are-we/WhoAreWe';
 
 interface Links {
   collections: any[];
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path={"/collections/:collectionName"} element={<Collections />} />
         <Route path={"/collections/:collectionName/:productName"} element={<Product />} />
+        <Route path={"/who-are-we"} element={<WhoAreWe />} />
       </Routes>
     </HashRouter>
   )

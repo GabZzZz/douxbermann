@@ -9,7 +9,10 @@ function Footer() {
                 <div className='footer-links'>
                     <a href='/'>Accueil</a>
                     <p>Collections :</p>
-                    {window.douxbermann.collections.map((collection: any) => (<a href={'#' + collection.link} className='ml-4'>{collection.label}</a>))}
+                    { 
+                        window.douxbermann.collections.map((collection: any, index: number) => (
+                            <a key={`${collection.link}-${index}`} href={'#' + collection.link} className='ml-4'>{collection.label}</a>
+                        ))}
                     <a href='/who-are-we'>Qui sommes nous ?</a>
                 </div>
                 <div className='footer-networks'>

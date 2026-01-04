@@ -31,7 +31,7 @@ function Collections() {
                             <Carousel className="collection-carousel">
                                 <CarouselContent className="collection-carousel-content">
                                     {
-                                        product.pictures.map((picture: string, index: number) => (
+                                        product.miniaturesPictures?.map((picture: string, index: number) => (
                                                 <CarouselItem key={product.name + '-' + picture + '-' + index} className="md:basis-1/1 lg:basis-1/1">
                                                     <a className="collection-carroussel-item" href={product.link}>
                                                         <img src={'/assets/collections/' + collection.name + '/' + picture} />

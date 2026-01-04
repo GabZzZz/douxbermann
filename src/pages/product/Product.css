@@ -7,20 +7,31 @@
 
 .product-container {
     max-width: 1440px;
+    width: 100%;
 }
 
 .product-container .product-description {
     display: flex;
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .product-container .product-description .product-carousel {
     height: 70vh;
-    width: 25vw;
+    width: 30vw;
 }
 
 .product-container .product-description .product-informations {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.product-container .product-description .product-informations button:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
