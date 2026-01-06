@@ -17,6 +17,36 @@ import { useEffect } from 'react';
 function Header() {
     useEffect(() => {}, [window.douxbermann]);
 
+    const openInstagram = () => {
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        if (isMobile) {
+            window.location.href = "https://www.instagram.com/douxbermann";
+        } else {
+            window.open(
+            "https://www.instagram.com/douxbermann",
+            "_blank",
+            "noopener,noreferrer"
+            );
+        }
+    };
+
+    const sendMail = () => {
+        const to = "douxbermann@hotmail.com";
+        const subject = encodeURIComponent(
+            `Demande d'information`
+        );
+        const body = encodeURIComponent(
+        `Bonjour,
+
+        Je vous contacte au sujet de : 
+
+        Cordialement,`
+        );
+
+        window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+    };
+
     return (
         <div className='header'>
             <div className='header-container'>
@@ -54,16 +84,12 @@ function Header() {
                     <div className="soft-curve soft-curve-right"></div>
                 </div>
                 <div className='header-contacts'>
-                    <a href="mailto:douxbermann@hotmail.com">
-                        <Button variant="link">
-                            <Mail />
-                        </Button>
-                    </a>
-                    <a target="_blank" href="https://www.instagram.com/douxbermann">
-                        <Button variant="link">
-                            <Instagram />
-                        </Button>
-                    </a>
+                    <Button variant="link" onClick={sendMail}>
+                        <Mail />
+                    </Button>
+                    <Button variant="link" onClick={openInstagram}>
+                        <Instagram />
+                    </Button>
                 </div>
             </div>
         </div>

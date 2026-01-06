@@ -11,7 +11,7 @@ interface LayerProps {
 
 function Layer({ onDataLoaded, children }: LayerProps) {
 
-  const [douxbermann, setData] = useState(null);  
+  const [, setData] = useState(null);  
   
   useEffect(() => {
     if (!window.douxbermann) {
