@@ -1,0 +1,15 @@
+.who-are-we-principal-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.who-are-we-container {
+    max-width: 1440px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
