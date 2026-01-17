@@ -1,7 +1,7 @@
 {
     "home": {
         "title": "Douxbermann",
-        "subtitle": "Le style mordant, le coeur fondant.",
+        "subtitle": "Site en cours de construction",
         "carousel": [
             "/home/carousel/carousel-1.jpeg",
             "/home/carousel/carousel-2.jpeg",
@@ -18,294 +18,294 @@
             "name": "poignee",
             "label": "Poignée",
             "picture": "/collections/poignee/poignee-1.PNG",
-            "link": "#/collections/poignee",
+            "link": "/collections/poignee",
             "products": [
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 25,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 35,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 45,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 55,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 65,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 },
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "price": 75,
-                    "link": "#/collections/poignee/cloutee",
+                    "link": "/collections/poignee/cloutee",
                     "miniaturesPictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ],
                     "pictures": [
-                        "poignee-1.PNG",
-                        "poignee-2.PNG",
-                        "poignee-3.PNG",
-                        "poignee-4.PNG"
+                        "/collections/poignee/poignee-1.PNG",
+                        "/collections/poignee/poignee-2.PNG",
+                        "/collections/poignee/poignee-3.PNG",
+                        "/collections/poignee/poignee-4.PNG"
                     ]
                 }
             ]
@@ -314,16 +314,85 @@
             "name": "longe",
             "label": "Longe",
             "picture": "/collections/longe/longe-1.PNG",
-            "link": "#/collections/longe",
+            "link": "/collections/longe",
             "products": [
                 {
                     "name": "cloutee",
                     "label": "Cloutée",
                     "description": "Belle longe cloutée qui va ravir ton toutou",
                     "price": 25,
-                    "link": "#/collections/longe/cloutee",
+                    "link": "/collections/longe/cloutee",
                     "miniaturesPictures": [
-                        "longe-1.PNG",
+                        "/collections/longe/longe-1.PNG",
+                        "/collections/longe/longe-2.PNG",
+                        "/collections/longe/longe-3.PNG",
+                        "/collections/longe/longe-4.PNG"
+                    ],
+                    "pictures": [
+                        "/collections/longe/longe-1.PNG",
+                        "/collections/longe/longe-2.PNG",
+                        "/collections/longe/longe-3.PNG",
+                        "/collections/longe/longe-4.PNG"
+                    ],
+                    "colors": [
+                        {
+                            "name": "longe-1",
+                            "label": "Longe 1",
+                            "colors": [
+                                { "label": "Rouge", "hex": "#F23311" },
+                                { "label": "Turquoise", "hex": "#11F2C1" },
+                                { "label": "Bleu", "hex": "#1154F2" },
+                                { "label": "Rose", "hex": "#DF11F2" },
+                                { "label": "Orange", "hex": "#F28911" }
+                            ]
+                        },
+                        {
+                            "name": "longe-2",
+                            "label": "Longe 2",
+                            "colors": [
+                                { "label": "Rouge", "hex": "#F23311" },
+                                { "label": "Turquoise", "hex": "#11F2C1" },
+                                { "label": "Bleu", "hex": "#1154F2" },
+                                { "label": "Rose", "hex": "#DF11F2" },
+                                { "label": "Orange", "hex": "#F28911" }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "collier",
+            "label": "Collier",
+            "picture": "/collections/collier/collier-1.PNG",
+            "link": "/collections/collier"
+        },
+        {
+            "name": "chats",
+            "label": "Chats",
+            "picture": "/collections/chats/chats-1.PNG",
+            "link": "/collections/chats"
+        },
+        {
+            "name": "beau-gosse",
+            "label": "Beau Gosse",
+            "picture": "/collections/beau-gosse/beau-gosse-1.PNG",
+            "link": "/collections/beau-gosse"
+        },
+        {
+            "name": "harnais",
+            "label": "Harnais",
+            "picture": "/collections/beau-gosse/beau-gosse-1.PNG",
+            "link": "/collections/harnais",
+            "products": [
+                {
+                    "name": "cloutee",
+                    "label": "Cloutée",
+                    "description": "Belle longe cloutée qui va ravir ton toutou",
+                    "price": 25,
+                    "link": "/collections/harnais/cloutee",
+                    "miniaturesPictures": [
+                        "/collections/harnais/longe-1.PNG",
                         "longe-2.PNG",
                         "longe-3.PNG",
                         "longe-4.PNG"
@@ -348,36 +417,73 @@
                         },
                         {
                             "name": "longe-2",
-                            "label": "Longe 2",
+                            "label": "Longe toto",
                             "colors": [
                                 { "label": "Noir 6", "hex": "#000000" },
                                 { "label": "Noir 7", "hex": "#FFFFFF" },
                                 { "label": "Noir 8", "hex": "#DDDDDD" },
                                 { "label": "Noir 9", "hex": "#111111" },
-                                { "label": "Noir 10", "hex": "#222222" }
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" },
+                                { "label": "Noir 6", "hex": "#000000" },
+                                { "label": "Noir 7", "hex": "#FFFFFF" },
+                                { "label": "Noir 8", "hex": "#DDDDDD" },
+                                { "label": "Noir 9", "hex": "#111111" },
+                                { "label": "Noir 10", "hex": "#222222" },
+                                { "label": "Noir 11", "hex": "#222222" }
                             ]
                         }
                     ]
                 }
             ]
-        },
-        {
-            "name": "collier",
-            "label": "Collier",
-            "picture": "/collections/collier/collier-1.PNG",
-            "link": "#/collections/collier"
-        },
-        {
-            "name": "chats",
-            "label": "Chats",
-            "picture": "/collections/chats/chats-1.PNG",
-            "link": "#/collections/chats"
-        },
-        {
-            "name": "beau-gosse",
-            "label": "Beau Gosse",
-            "picture": "/collections/beau-gosse/beau-gosse-1.PNG",
-            "link": "#/collections/beau-gosse"
         }
     ],
     "whoAreWe": [
@@ -400,6 +506,11 @@
             "picture": "/collections/poignee/poignee-4.PNG",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "picturePosition": "right"
+        },
+        {
+            "picture": "/collections/chats/chats-1.PNG",
+            "text": "tata",
+            "picturePosition": "left"
         }
     ]
 }

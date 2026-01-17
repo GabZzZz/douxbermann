@@ -16,8 +16,9 @@
 
 .collections-container .collection-element {
     height: 300px;
-    width: 300px;
+    width: 250px;
     border-radius: 10%;
+    margin-left: 45px;
 }
 
 .collections-container .collection-element img {

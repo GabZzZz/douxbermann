@@ -44,6 +44,10 @@
     height: 25px;
 }
 
+.header .header-container .header-navigations button {
+    background-color: var(--global-primary-color);
+}
+
 .header .header-container .header-logo-container .header-logo .logo {
     width: 80px;
     height: 80px;

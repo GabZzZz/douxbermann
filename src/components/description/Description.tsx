@@ -4,7 +4,7 @@ function Description() {
     return (
         <div className='description-principal-container'>
             <div className='description-container'>
-                <p className="text-muted-foreground text-xl">
+                <p className="text-xl">
                     {window.douxbermann.home.description}
                 </p>
             </div>

@@ -17,7 +17,7 @@ function ColorPicker({
 
   const handleSelect = (colorLabel: string, colorHex: string) => {
     setInternalColor(colorHex);
-    onChange?.(`${colorLabel} : ${colorHex}`);
+    onChange?.(`${colorLabel}`);
   };
 
   return (

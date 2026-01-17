@@ -13,6 +13,7 @@ import {
 } from "../ui/navigation-menu";
 import { Button } from '../ui/button';
 import { useEffect } from 'react';
+import { toast } from "sonner";
 
 function Header() {
     useEffect(() => {}, [window.douxbermann]);
@@ -45,6 +46,8 @@ function Header() {
         );
 
         window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+
+        navigator.clipboard.writeText(body).then(() => toast.info("Le corp de mail a été copié dans le clipboard.\n Vous pouvez le coller dans votre client mail préféré, et envoyer votre mail à l'adresse douxbermann@hotmail.com"));
     };
 
     return (
@@ -72,7 +75,7 @@ function Header() {
                             </NavigationMenuItem>
                         </NavigationMenuList>
                     </NavigationMenu>
-                    <a className='header-link' href="#/who-are-we">
+                    <a className='header-link' href="/who-are-we">
                         <Button variant="link">Qui sommes nous ?</Button>
                     </a>
                 </div>

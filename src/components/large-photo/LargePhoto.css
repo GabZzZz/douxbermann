@@ -10,7 +10,7 @@
 
 .large-photo .large-photo-container {
     height: 100%;
-    width: 100%;
+    width: 90vw;
     max-width: 1440px;
     display: flex;
     justify-content: end;

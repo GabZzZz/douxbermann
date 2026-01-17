@@ -8,7 +8,7 @@
 }
 
 .footer-container {
-    width: 100%;
+    width: 90vw;
     max-width: 1440px;
     color: var(--global-secondary-color);
     display: flex;
@@ -39,6 +39,7 @@
 
 .footer-container .footer-networks div a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .footer-container .footer-networks .logo {
