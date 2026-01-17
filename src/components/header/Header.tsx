@@ -68,7 +68,7 @@ function Header() {
                                 <NavigationMenuContent>
                                     {window.douxbermann && window.douxbermann.collections.map((collection: any) => (
                                         <NavigationMenuLink>
-                                            <a className="sublink" href={collection.link}>{collection.label}</a>
+                                            <a className="sublink" href={`/collections/${collection.name}`}>{collection.label}</a>
                                         </NavigationMenuLink>
                                     ))}
                                 </NavigationMenuContent>

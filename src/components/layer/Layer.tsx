@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { createContext, useEffect, useRef, useState, type ReactNode, type RefObject } from 'react';
 import './Layer.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
@@ -10,8 +10,7 @@ interface LayerProps {
 } 
 
 function Layer({ onDataLoaded, children }: LayerProps) {
-
-  const [, setData] = useState(null);  
+  const [, setData] = useState(null);
   
   useEffect(() => {
     if (!window.douxbermann) {

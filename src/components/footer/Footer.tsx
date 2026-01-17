@@ -30,7 +30,7 @@ function Footer() {
                     <p>Collections :</p>
                     { 
                         window.douxbermann.collections.map((collection: any, index: number) => (
-                            <a key={`${collection.link}-${index}`} href={collection.link} className='ml-4'>{collection.label}</a>
+                            <a key={`${collection.name}-${index}`} href={`/collections/${collection.name}`} className='ml-4'>{collection.label}</a>
                         ))}
                     <a href='/who-are-we'>Qui sommes nous ?</a>
                 </div>

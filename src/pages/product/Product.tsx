@@ -5,12 +5,12 @@ import { useParams } from 'react-router-dom';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../../components/ui/carousel';
 import ColorPicker from '../../components/color-picker/ColorPicker';
 import { Button } from '../../components/ui/button';
-import { Instagram, Mail } from 'lucide-react';
+import { ArrowLeft, ArrowUp, Instagram, Mail } from 'lucide-react';
 import { toast } from "sonner";
 
 function Product() {
     const { collectionName, productName } = useParams();
-    const [, setCollection] = useState<any>();
+    const [collection, setCollection] = useState<any>();
     const [product, setProduct] = useState<any>();
     const [colorLabels, setColorLabels] = useState<string[]>();
 
@@ -49,7 +49,6 @@ function Product() {
         const message = getMessage();
         navigator.clipboard.writeText(message).then(() => toast.info("Le message a été copié dans le clipboard.\n Vous pouvez le coller et me l'envoyer en privé sur Instagram"));
         
-        
         const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
         if (isMobile) {
             window.location.href = "https://www.instagram.com/direct/t/douxbermann";
@@ -74,8 +73,17 @@ function Product() {
         Cordialement,`;
     };
 
+    const goToCollection = () => {
+        window.location.href = `/collections/${collectionName}`;
+    };
+
+    const goToTopOfPage = () => {
+        window.location.href = '#top';
+    };
+
     return (
         <Layer onDataLoaded={onCollectionsLoaded}>
+            <div id="top"></div>
             <div className="product-principal-container">
                 <div className="product-container">
                     <div className="product-description">
@@ -95,7 +103,7 @@ function Product() {
                         </Carousel>
                         <div className="product-informations">
                             <span>{product?.label}</span>
-                            <span>{product?.description}</span>
+                            <span style={{ whiteSpace: "pre-line" }}>{product?.description}</span>
                             <span>Tarif : {product?.price}€</span>
                             { product?.colors && <span>Couleurs disponibles : </span> }
                             { product?.colors?.map((color: any, index: number) => 
@@ -111,6 +119,48 @@ function Product() {
                                 </Button>
                             </span>
                         </div>
+                    </div>
+                    {collection?.products && (
+                        <div className="propositions-container">
+                            <div className='title'>Dans la même collection, découvrez :</div>
+                            <div className='products'>
+                                {collection?.products && [...collection?.products]
+                                    .sort(() => Math.random() - 0.5)
+                                    .slice(0, 5)
+                                    .map((product: any, productIndex: number) => 
+                                        <div className="collection-element" key={product.name + '-' + productIndex}>
+                                            <Carousel className="collection-carousel">
+                                                <CarouselContent className="collection-carousel-content">
+                                                    {
+                                                        product.miniaturesPictures?.map((picture: string, index: number) => (
+                                                                <CarouselItem key={product.name + '-' + picture + '-' + index} className="md:basis-1/1 lg:basis-1/1">
+                                                                    <a className="collection-carroussel-item" href={`/collections/${collection.name}/${product.name}`}>
+                                                                        <img src={'/assets/' + picture} />
+                                                                    </a>
+                                                                </CarouselItem>
+                                                            )
+                                                        )
+                                                    }
+                                                </CarouselContent>
+                                                <CarouselPrevious />
+                                                <CarouselNext />
+                                            </Carousel>
+                                            <p>{product.label} - {product.price}€</p>
+                                        </div>
+                                    )
+                                }
+                            </div>
+                        </div>
+                    )}
+
+                    
+                    <div className="navigation-container">
+                        <Button variant="link" onClick={goToCollection}>
+                            <ArrowLeft /> Revenir à la collection
+                        </Button>
+                        <Button variant="link" onClick={goToTopOfPage}>
+                            Revenir en haut de page <ArrowUp />
+                        </Button>
                     </div>
                 </div>
             </div>

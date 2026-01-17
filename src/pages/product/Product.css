@@ -35,3 +35,44 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+.product-container .navigation-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-container .navigation-container button {
+    color: var(--global-primary-color);
+    display: flex;
+}
+
+.product-container .navigation-container button:hover {
+    cursor: pointer;
+}
+
+.product-container .propositions-container {
+    margin-bottom: 40px;
+}
+
+.product-container .propositions-container .title {
+    margin-bottom: 20px;
+}
+
+.product-container .propositions-container .products {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colonnes */
+    gap: 16px;
+}
+
+.product-container .propositions-container .products .collection-element {
+    height: 220px;
+    width: 180px;
+    border-radius: 10%;
+    margin-left: 45px;
+}
+
+.product-container .propositions-container .products .collection-element img {
+    height: 200px;
+    width: 180px;
+    border-radius: 10%;
+}

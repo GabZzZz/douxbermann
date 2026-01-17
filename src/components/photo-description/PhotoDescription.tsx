@@ -8,7 +8,7 @@ function PhotoDescription({whoAreWe }: PhotoDescriptionProps) {
     return (
         <div className={whoAreWe.picturePosition === 'right' ? 'photo-description picture-right' : 'photo-description'}>
             <img src={'/assets' + whoAreWe.picture}></img>
-            <span className='text-muted-foreground text-xl'>{whoAreWe.text}</span>
+            <span className='text-xl'>{whoAreWe.text}</span>
         </div>
     );
 }
